@@ -224,6 +224,7 @@ function Techies() {
                           color: "rgb(107 114 128)",
                           letterSpacing: ".025em",
                           lineHeight: "1.5rem",
+                          overflow: "hidden",
                         }}
                       >
                         Answer a few questions
@@ -247,7 +248,7 @@ function Techies() {
                       }}
                     >
                       {[
-                        "What is your salry expectation?",
+                        "What is your salary expectation?",
                         "where do you want to work?",
                         "Wahat role fit you?",
                         "exclude IT consulting firm and agencies?",
@@ -394,6 +395,7 @@ function Techies() {
                 justifyContent: "right",
                 alignItems: "right",
                 padding: "20px",
+                overflow: "hidden",
               }}
             >
               <motion.img
