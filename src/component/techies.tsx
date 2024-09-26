@@ -1,5 +1,5 @@
 import { Row, Col, Button, Card, Badge } from "antd";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Techies() {
   const containerVariants = {
@@ -11,11 +11,6 @@ function Techies() {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
   };
-
-  const { scrollYProgress } = useScroll();
-
-  const opacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
-  const translateY = useTransform(scrollYProgress, [0, 0.2], [50, 0]);
 
   return (
     <>
