@@ -148,7 +148,7 @@ function Techies() {
         <Col
           style={{
             flex: 1,
-            overflow: "auto",
+            // overflow: "auto",
             padding: "20px",
           }}
         >
