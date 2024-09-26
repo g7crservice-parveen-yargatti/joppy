@@ -1,9 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import type { MenuProps } from "antd";
 import { Menu, Tooltip, Row, Col } from "antd";
 
-// Define MenuItem type
 type MenuItem = Required<MenuProps>["items"][number];
 
 const items: MenuItem[] = [
@@ -71,13 +70,12 @@ const items: MenuItem[] = [
 ];
 
 interface JoppyMenuProps {
-  collapsed: boolean; // Prop to receive collapsed state
-  onToggle: () => void; // Prop to toggle the menu
+  collapsed: boolean;
+  onToggle: () => void;
 }
 
 const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
-  const navigate = useNavigate(); // Use useNavigate for navigation
-
+  const navigate = useNavigate();
   const handleMenuClick = (key: string) => {
     switch (key) {
       case "1":
@@ -110,7 +108,13 @@ const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
   };
 
   return (
-    <Row style={{ height: "100vh", overflow: "hidden", position: "fixed" }}>
+    <Row
+      style={{
+        height: "100vh",
+        overflow: "hidden",
+        position: "fixed",
+      }}
+    >
       <Col style={{ padding: 0, height: "100%" }}>
         <Menu
           defaultSelectedKeys={["1"]}
@@ -121,7 +125,7 @@ const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
           style={{
             width: collapsed ? 100 : 256,
             height: "100%",
-            backgroundColor: "rgb(113, 159, 173)",
+            backgroundColor: "#fff",
           }}
         >
           <Menu.Item
@@ -137,7 +141,8 @@ const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
                   height: "25px",
                   marginRight: 10,
                   cursor: "pointer",
-                  backgroundColor: "#87CEEB",
+                  // backgroundColor: "#87CEEB",
+                  backgroundColor: "#fff",
                   borderRadius: "50%",
                 }}
                 onClick={onToggle}
@@ -154,9 +159,7 @@ const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
                   justifyContent: "center",
                   fontWeight: "bold",
                   padding: "10px 15px",
-                  borderRadius: "1000px",
-                  backgroundColor: "#f0f0f0",
-                  transition: "background-color 0.3s",
+                  // transition: "background-color 0.3s",
                 }}
               >
                 JOPPY
