@@ -17,7 +17,6 @@ function Techies() {
       <Col
         style={{
           flex: 1,
-          overflow: "auto",
           padding: "29px",
         }}
       >
@@ -237,21 +236,22 @@ function Techies() {
                       lineHeight: "1.5rem",
                     }}
                   >
-                    About your code skills, where you prefer to work, salary and
-                    good practices. No need to type in your whole CV!
+                    About your code skills, where you prefer to work, salary,
+                    and good practices. No need to type in your whole CV!
                     <ul
                       style={{
                         padding: 0,
                         display: "flex",
                         flexWrap: "wrap",
                         listStyleType: "none",
+                        justifyContent: "space-between", // Added to space items better on larger screens
                       }}
                     >
                       {[
                         "What is your salary expectation?",
-                        "where do you want to work?",
-                        "Wahat role fit you?",
-                        "exclude IT consulting firm and agencies?",
+                        "Where do you want to work?",
+                        "What role fits you?",
+                        "Exclude IT consulting firms and agencies?",
                       ].map((text, index) => (
                         <motion.li
                           key={index}
@@ -262,7 +262,7 @@ function Techies() {
                           style={{
                             display: "flex",
                             alignItems: "center",
-                            width: "50%",
+                            width: "48%", // Set to 48% to fit 2 items side by side
                             padding: "10px 0",
                           }}
                         >
