@@ -187,32 +187,33 @@ function Techies() {
                 alignContent: "center",
               }}
             >
-              <Badge.Ribbon
-                text={
-                  <span
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "bold",
-                      color: "white",
-                      letterSpacing: ".025em",
-                      lineHeight: "1.5rem",
-                    }}
-                  >
-                    1
-                  </span>
-                }
-                color="#007aff"
+              <motion.div
+                variants={itemVariants}
+                animate="visible"
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 100 }}
+                transition={{ duration: 0.5 }}
+                style={{
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  scale: 1.03,
+                  boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+                }}
               >
-                <motion.div
-                  whileHover={{
-                    scale: 1.05,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
-                  style={{
-                    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                    scale: 1.03,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
+                <Badge.Ribbon
+                  text={
+                    <span
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "bold",
+                        color: "white",
+                        letterSpacing: ".025em",
+                        lineHeight: "1.5rem",
+                      }}
+                    >
+                      1
+                    </span>
+                  }
+                  color="#007aff"
                 >
                   <Card
                     title={
@@ -278,8 +279,8 @@ function Techies() {
                       ))}
                     </ul>
                   </Card>
-                </motion.div>
-              </Badge.Ribbon>
+                </Badge.Ribbon>
+              </motion.div>
             </Col>
             <Col
               xs={24}
@@ -289,32 +290,33 @@ function Techies() {
                 alignContent: "center",
               }}
             >
-              <Badge.Ribbon
-                text={
-                  <span
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "bold",
-                      color: "white",
-                      letterSpacing: ".025em",
-                      lineHeight: "1.5rem",
-                    }}
-                  >
-                    2
-                  </span>
-                }
-                color="#ffd52d"
+              <motion.div
+                variants={itemVariants}
+                animate="visible"
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 100 }}
+                transition={{ duration: 0.5 }}
+                style={{
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  scale: 1.03,
+                  boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+                }}
               >
-                <motion.div
-                  whileHover={{
-                    scale: 1.05,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
-                  style={{
-                    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                    scale: 1.03,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
+                <Badge.Ribbon
+                  text={
+                    <span
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "bold",
+                        color: "white",
+                        letterSpacing: ".025em",
+                        lineHeight: "1.5rem",
+                      }}
+                    >
+                      2
+                    </span>
+                  }
+                  color="#ffd52d"
                 >
                   <Card
                     title={
@@ -380,8 +382,8 @@ function Techies() {
                       ))}
                     </ul>
                   </Card>
-                </motion.div>
-              </Badge.Ribbon>
+                </Badge.Ribbon>
+              </motion.div>
             </Col>
 
             <Col
@@ -442,32 +444,33 @@ function Techies() {
                 alignContent: "center",
               }}
             >
-              <Badge.Ribbon
-                text={
-                  <span
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "bold",
-                      color: "white",
-                      letterSpacing: ".025em",
-                      lineHeight: "1.5rem",
-                    }}
-                  >
-                    3
-                  </span>
-                }
-                color="rgb(76 217 100)"
+              <motion.div
+                variants={itemVariants}
+                animate="visible"
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 100 }}
+                transition={{ duration: 0.5 }}
+                style={{
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  scale: 1.03,
+                  boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+                }}
               >
-                <motion.div
-                  whileHover={{
-                    scale: 1.05,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
-                  style={{
-                    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                    scale: 1.03,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
+                <Badge.Ribbon
+                  text={
+                    <span
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "bold",
+                        color: "white",
+                        letterSpacing: ".025em",
+                        lineHeight: "1.5rem",
+                      }}
+                    >
+                      3
+                    </span>
+                  }
+                  color="rgb(76 217 100)"
                 >
                   <Card
                     title={
@@ -533,8 +536,8 @@ function Techies() {
                       ))}
                     </ul>
                   </Card>
-                </motion.div>
-              </Badge.Ribbon>
+                </Badge.Ribbon>
+              </motion.div>
             </Col>
             <Col
               xs={24}
@@ -544,32 +547,33 @@ function Techies() {
                 alignContent: "center",
               }}
             >
-              <Badge.Ribbon
-                text={
-                  <span
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "bold",
-                      color: "white",
-                      letterSpacing: ".025em",
-                      lineHeight: "1.5rem",
-                    }}
-                  >
-                    4
-                  </span>
-                }
-                color="rgb(252 76 104)"
+              <motion.div
+                variants={itemVariants}
+                animate="visible"
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 100 }}
+                transition={{ duration: 0.5 }}
+                style={{
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  scale: 1.03,
+                  boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+                }}
               >
-                <motion.div
-                  whileHover={{
-                    scale: 1.05,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
-                  style={{
-                    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                    scale: 1.03,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
-                  }}
+                <Badge.Ribbon
+                  text={
+                    <span
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "bold",
+                        color: "white",
+                        letterSpacing: ".025em",
+                        lineHeight: "1.5rem",
+                      }}
+                    >
+                      4
+                    </span>
+                  }
+                  color="rgb(252 76 104)"
                 >
                   <Card
                     title={
@@ -636,8 +640,8 @@ function Techies() {
                       ))}
                     </ul>
                   </Card>
-                </motion.div>
-              </Badge.Ribbon>
+                </Badge.Ribbon>
+              </motion.div>
             </Col>
 
             <Col
