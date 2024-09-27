@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const { Step } = Steps;
 
 function Employers() {
-  const [currentStep, setCurrentStep] = useState(0);
+  const [currentStep, setCurrentStep] = useState(4);
   const [sideImage, setSideImage] = useState("../../schedule.png");
 
   const handleStepHover = (step: any, image: any) => {
