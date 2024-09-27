@@ -125,7 +125,7 @@ const JoppyMenu: React.FC<JoppyMenuProps> = ({ collapsed, onToggle }) => {
           style={{
             width: collapsed ? 100 : 256,
             height: "100%",
-            backgroundColor: "rgb(113 159 173)",
+            backgroundColor: "#70a0ab",
           }}
         >
           <Menu.Item

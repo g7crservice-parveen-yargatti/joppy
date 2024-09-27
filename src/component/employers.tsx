@@ -24,7 +24,7 @@ function Employers() {
         <div>
           <Card
             bordered={true}
-            style={{ width: "100%", backgroundColor: "#a8a6a6" }}
+            style={{ width: "100%", backgroundColor: "#c7c7c7" }}
           >
             <Row gutter={16} align="middle">
               <Col
@@ -62,7 +62,7 @@ function Employers() {
         <div>
           <Card
             bordered={true}
-            style={{ width: "100%", backgroundColor: "#a8a6a6" }}
+            style={{ width: "100%", backgroundColor: "#c7c7c7" }}
           >
             <Row gutter={16} align="middle">
               <Col
@@ -101,7 +101,7 @@ function Employers() {
         <div>
           <Card
             bordered={true}
-            style={{ width: "100%", backgroundColor: "#a8a6a6" }}
+            style={{ width: "100%", backgroundColor: "#c7c7c7" }}
           >
             <Row gutter={16} align="middle">
               <Col
@@ -139,7 +139,7 @@ function Employers() {
         <div>
           <Card
             bordered={true}
-            style={{ width: "100%", backgroundColor: "#a8a6a6" }}
+            style={{ width: "100%", backgroundColor: "#c7c7c7" }}
           >
             <Row gutter={16} align="middle">
               <Col
