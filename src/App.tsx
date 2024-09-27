@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Layout } from "antd";
 import JoppyMenu from "./component/joppymenu";
 import Techies from "./component/techies";
+import Employers from "./component/employers";
 
 const { Content } = Layout;
 
@@ -27,6 +28,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path="/" element={<Techies />} />
               <Route path="/techies" element={<Techies />} />
+              <Route path="/employers" element={<Employers />} />
               {/* Add other routes here */}
             </Routes>
           </Content>
