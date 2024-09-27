@@ -6,7 +6,7 @@ const { Step } = Steps;
 
 function Employers() {
   const [currentStep, setCurrentStep] = useState(0);
-  const [sideImage, setSideImage] = useState("../../source.png");
+  const [sideImage, setSideImage] = useState("../../schedule.png");
 
   const handleStepHover = (step: any, image: any) => {
     setCurrentStep(step);
