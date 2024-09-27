@@ -4,6 +4,7 @@ import { Layout } from "antd";
 import JoppyMenu from "./component/joppymenu";
 import Techies from "./component/techies";
 import Employers from "./component/employers";
+import About from "./component/about";
 
 const { Content } = Layout;
 
@@ -29,6 +30,7 @@ const App: React.FC = () => {
               <Route path="/" element={<Techies />} />
               <Route path="/techies" element={<Techies />} />
               <Route path="/employers" element={<Employers />} />
+              <Route path="/about" element={<About />} />
               {/* Add other routes here */}
             </Routes>
           </Content>
