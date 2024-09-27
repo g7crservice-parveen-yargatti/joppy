@@ -1,4 +1,4 @@
-import { Col, Row, Steps } from "antd";
+import { Col, Row } from "antd";
 import { motion } from "framer-motion";
 
 function About() {
